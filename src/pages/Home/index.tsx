@@ -17,7 +17,8 @@ const Home: React.FC = () => {
     imageSrc={Ilustration}
     imageAlt="Home
     image"
-    subtitle="Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+" title="Boas vindas a Lacrei Saúde" 
+    subtitle="Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+" 
+    title="Boas vindas a Lacrei Saúde" 
     />
     <S.ButtonsContainer>
     <Button bgColor='#018762' color='#FFF'>
