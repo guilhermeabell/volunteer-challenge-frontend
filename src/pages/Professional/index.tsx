@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Ilustration from '../../assets/professional.svg'
 import Header from '../../fragments/Header'
@@ -6,6 +6,10 @@ import Main from '../../fragments/Main'
 import Footer from '../../fragments/Footer'
 
 const Professional: React.FC = () => {
+  useEffect(() => {
+    document.title = 'Profissional | Desafio Lacrei'
+  }, [])
+
   return (
     <>
       <Header />
