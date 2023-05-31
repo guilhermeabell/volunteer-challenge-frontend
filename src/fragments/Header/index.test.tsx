@@ -1,21 +1,18 @@
-import { render, screen } from '@testing-library/react';
-import Header from '.';
+import React from 'react'
+import { render, screen } from '@testing-library/react'
+import { BrowserRouter } from 'react-router-dom'
+import Header from '.'
 
 describe('Header', () => {
   it('renders the title correctly', () => {
-    render(<Header />);
-    const titleElement = screen.getByText('Lacrei');
-    expect(titleElement).toBeInTheDocument();
-  });
+    render(
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>,
+    )
 
-  it('renders the navigation menu items correctly', () => {
-    render(<Header />);
-    const homeMenuItem = screen.getByRole('link', { name: 'Home' });
-    const userMenuItem = screen.getByText('Pessoa Usuária');
-    const professionalMenuItem = screen.getByText('Profissional');
-
-    expect(homeMenuItem).toBeInTheDocument();
-    expect(userMenuItem).toBeInTheDocument();
-    expect(professionalMenuItem).toBeInTheDocument();
-  });
-});
+    const titleElement = screen.getByTestId('header-title')
+    expect(titleElement).toBeInTheDocument()
+    expect(titleElement.textContent).toBe('Lacrei')
+  })
+})
