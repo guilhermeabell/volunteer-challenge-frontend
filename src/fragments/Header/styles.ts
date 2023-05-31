@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0 1.25rem;
-  height: 5rem;
+  height: 3.75rem;
   background-color: #EEEEEE;
 `
 
@@ -21,7 +21,7 @@ export const NavigationMenu = styled.ul`
   color: #1F1F1F;
   list-style: none;
   font-weight: bold;
-  gap: 2.8rem;
+  gap: 2rem;
   padding: 2rem;
 `;
 
