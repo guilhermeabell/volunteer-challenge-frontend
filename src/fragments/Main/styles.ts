@@ -3,16 +3,14 @@ import styled from 'styled-components'
 export const MainContainer = styled.div`
   display: flex;
   align-items: center;
-  max-height: 720px;
-  margin-bottom: 2rem;
   justify-content: space-between;
-  padding: 4rem;
+  padding: 4rem 4rem 0px;
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 368px;
+  padding: 0 0 14rem;
 `;
 
 export const Image = styled.img`
