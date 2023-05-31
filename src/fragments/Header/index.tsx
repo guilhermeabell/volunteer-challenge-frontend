@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import * as S from './styles';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <S.HeaderContainer>
       <S.Title>Lacrei</S.Title>

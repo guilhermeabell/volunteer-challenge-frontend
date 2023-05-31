@@ -2,8 +2,6 @@ import React from 'react';
 import { FacebookLogo, LinkedinLogo, InstagramLogo } from 'phosphor-react';
 import * as S from './styles';
 
-
-
 const Footer: React.FC = () => {
   return (
     <S.FooterContainer>
