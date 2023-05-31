@@ -5,8 +5,8 @@ import UserPerson from "../pages/UserPerson"
 function App() {
   return (
     <>
-   <Home />
-   {/* <UserPerson /> */}
+   {/* <Home /> */}
+   <UserPerson />
    {/* <Professional /> */}
     </>
   )

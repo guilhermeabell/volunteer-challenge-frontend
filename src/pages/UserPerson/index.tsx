@@ -12,6 +12,7 @@ const UserPerson: React.FC = () => {
     <Header />
     <Main
     imageSrc={Ilustration}
+    hasBorderLeft
     imageAlt="UserPerson
     image"
     title="Pessoa Usuária" 

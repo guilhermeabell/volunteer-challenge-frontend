@@ -14,6 +14,7 @@ const Professional: React.FC = () => {
     imageSrc={Ilustration}
     imageAlt="Professional
     image"
+    hasBorderLeft
     title="Profissional" 
     subtitle="A Lacrei garante que pessoas LGBTQIAPN + <br /> recebam atendimento realizado por profissionais <br /> de qualidade e que atendam às suas <br /> necessidades de forma segura e acolhedora." 
     />
