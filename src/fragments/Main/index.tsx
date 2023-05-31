@@ -14,7 +14,7 @@ const Main: React.FC<MainProps> = ({
   subtitle,
   imageSrc,
   imageAlt,
-  hasBorderLeft
+  hasBorderLeft = false
 }) => {
   return (
     <>
