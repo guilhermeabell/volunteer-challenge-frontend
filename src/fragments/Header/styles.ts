@@ -35,9 +35,10 @@ export const NavigationMenuItem = styled.li`
    a {
     color: inherit;
     text-decoration: none;
+    transition: all 0.2s ease 0s;
   }
 
   &:hover {
-      color: #018762;
+      color: #808080;
     }
 `;
