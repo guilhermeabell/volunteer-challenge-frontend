@@ -1,14 +1,8 @@
-import Home from "../pages/Home"
-import Professional from "../pages/Professional"
-import UserPerson from "../pages/UserPerson"
+import Router from "./Router"
 
 function App() {
   return (
-    <>
-   {/* <Home /> */}
-   <UserPerson />
-   {/* <Professional /> */}
-    </>
+    <Router />
   )
 }
 
