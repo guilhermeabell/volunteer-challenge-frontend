@@ -1,24 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import * as S from './styles';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import * as S from './styles'
 
 const Header: React.FC = () => {
   return (
     <S.HeaderContainer>
-      <S.Title>Lacrei</S.Title>
+      <S.Title data-testid="header-title">Lacrei</S.Title>
       <S.NavigationMenu>
         <S.NavigationMenuItem>
-           <Link to={"/"}>Home</Link>
+          <Link data-testid="header-menu-home" to="/">
+            Home
+          </Link>
         </S.NavigationMenuItem>
         <S.NavigationMenuItem>
-          <Link to={"/userperson"}>Pessoa Usuária</Link>
+          <Link data-testid="header-menu-user-person" to="/userperson">
+            Pessoa Usuária
+          </Link>
         </S.NavigationMenuItem>
         <S.NavigationMenuItem>
-          <Link to={"/professional"}>Profissional</Link>
+          <Link data-testid="header-menu-professional" to="/professional">
+            Profissional
+          </Link>
         </S.NavigationMenuItem>
       </S.NavigationMenu>
     </S.HeaderContainer>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

@@ -6,24 +6,24 @@ export const HeaderContainer = styled.header`
   align-items: center;
   padding: 0 1.25rem;
   height: 3.75rem;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 `
 
 export const Title = styled.h1`
-font-size: 2rem;
-padding: 2rem;
-font-weight: bold;
-line-height: 44px;
-color: #018762;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  line-height: 44px;
+  color: #018762;
 `
 export const NavigationMenu = styled.ul`
   display: flex;
-  color: #1F1F1F;
+  color: #1f1f1f;
   list-style: none;
   font-weight: bold;
   gap: 2rem;
   padding: 2rem;
-`;
+`
 
 export const NavigationMenuItem = styled.li`
   margin-left: 16px;
@@ -32,13 +32,13 @@ export const NavigationMenuItem = styled.li`
   &:first-child {
     margin-left: 0;
   }
-   a {
+  a {
     color: inherit;
     text-decoration: none;
     transition: all 0.2s ease 0s;
   }
 
   &:hover {
-      color: #808080;
-    }
-`;
+    color: #808080;
+  }
+`

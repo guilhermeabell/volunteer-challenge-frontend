@@ -9,26 +9,25 @@ import Button from '../../fragments/Button'
 import * as S from './styles'
 
 const Home: React.FC = () => {
-
   return (
     <>
-    <Header />
-    <Main
-    imageSrc={Ilustration}
-    imageAlt="Home
+      <Header />
+      <Main
+        imageSrc={Ilustration}
+        imageAlt="Home
     image"
-    subtitle="Uma plataforma segura e acolhedora para <br /> comunidade LGBTQIAPN+" 
-    title="Boas vindas a Lacrei <br /> Saúde" 
-    />
-    <S.ButtonsContainer>
-     <Button bgColor='#018762' color='#FFF'>
-      Pessoa Usuária
-    </Button>
-    <Button hasBorder bgColor='#FFF' color='#018762'>
-      Profissional
-    </Button>
-    </S.ButtonsContainer>
-    <Footer />
+        subtitle="Uma plataforma segura e acolhedora para <br /> comunidade LGBTQIAPN+"
+        title="Boas vindas a Lacrei <br /> Saúde"
+      />
+      <S.ButtonsContainer>
+        <Button bgColor="#018762" color="#FFF">
+          Pessoa Usuária
+        </Button>
+        <Button hasBorder bgColor="#FFF" color="#018762">
+          Profissional
+        </Button>
+      </S.ButtonsContainer>
+      <Footer />
     </>
   )
 }

@@ -70,6 +70,7 @@
         "react/destructuring-assignment": 1,
         "react/static-property-placement": 1,
         "react/sort-comp": 0,
+
         "react/react-in-jsx-scope": 0,
         "react/state-in-constructor": 0,
         "prettier/prettier": "error",
@@ -82,7 +83,8 @@
             "format": ["camelCase", "PascalCase", "UPPER_CASE"],
             "selector": "variable"
           }
-        ]
+        ],
+        "react/function-component-definition": "off"
       }
     }
   ]

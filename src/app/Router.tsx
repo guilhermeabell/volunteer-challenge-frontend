@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
-import Professional from '../pages/Professional';
-import UserPerson from '../pages/UserPerson';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from '../pages/Home'
+import Professional from '../pages/Professional'
+import UserPerson from '../pages/UserPerson'
 
-const Router = () => {
+function Router() {
   return (
     <BrowserRouter>
       <Routes>
@@ -12,7 +12,7 @@ const Router = () => {
         <Route path="/userperson" element={<UserPerson />} />
       </Routes>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default Router;
+export default Router

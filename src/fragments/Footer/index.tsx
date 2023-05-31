@@ -1,6 +1,6 @@
-import React from 'react';
-import { FacebookLogo, LinkedinLogo, InstagramLogo } from 'phosphor-react';
-import * as S from './styles';
+import React from 'react'
+import { FacebookLogo, LinkedinLogo, InstagramLogo } from 'phosphor-react'
+import * as S from './styles'
 
 const Footer: React.FC = () => {
   return (
@@ -11,13 +11,13 @@ const Footer: React.FC = () => {
         <S.MenuItem href="#">Profissional</S.MenuItem>
       </S.MenuContainer>
       <S.IconContainer>
-        <FacebookLogo size={32} />
-        <InstagramLogo size={32} />
-        <LinkedinLogo size={32} />
+        <FacebookLogo data-testid="footer-facebook-logo" size={32} />
+        <InstagramLogo data-testid="footer-instagram-logo" size={32} />
+        <LinkedinLogo data-testid="footer-linkedin-logo" size={32} />
       </S.IconContainer>
       <S.SubTitle>Desafio front-end lacrei</S.SubTitle>
     </S.FooterContainer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

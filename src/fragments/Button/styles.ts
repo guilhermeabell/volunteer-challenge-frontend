@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 interface ButtonProps {
-  hasBorder?: boolean;
-  color?: string;
-  bgColor?: string;
+  hasBorder?: boolean
+  color?: string
+  bgColor?: string
 }
 
 export const ButtonWrapper = styled.button<ButtonProps>`
@@ -21,4 +21,4 @@ export const ButtonWrapper = styled.button<ButtonProps>`
   color: ${(props) => props.color || '#000'};
   background-color: ${(props) => props.bgColor || 'white'};
   cursor: pointer;
-`;
+`
