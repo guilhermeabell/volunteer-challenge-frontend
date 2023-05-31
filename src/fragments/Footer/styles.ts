@@ -15,17 +15,36 @@ export const MenuContainer = styled.div`
   gap: 1rem;
 `
 
-export const MenuItem = styled.a`
+export const MenuItem = styled.a<{ selected: boolean }>`
   color: #333;
   text-decoration: none;
-  font-weight: bold;
   font-size: 1.2rem;
+
+  a {
+    color: ${({ selected }) => (selected ? '#1F1F1F' : 'inherit')};
+    font-weight: ${({ selected }) => (selected ? '700' : 'normal')};
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+  }
+
+  &:hover {
+    color: #808080;
+  }
 `
 
 export const IconContainer = styled.div`
   display: flex;
   color: #018762;
   gap: 2rem;
+
+  a {
+    color: #018762;
+  }
+
+  &:hover {
+    color: #018762;
+    transition: all 0.2s ease 0s;
+  }
 `
 
 export const SubTitle = styled.p`
