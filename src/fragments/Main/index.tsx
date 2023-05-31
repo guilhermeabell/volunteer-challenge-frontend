@@ -1,5 +1,6 @@
 import React from 'react';
 import * as S from './styles'
+import Button from '../Button';
 
 interface MainProps {
   title: string;
@@ -15,13 +16,16 @@ const Main: React.FC<MainProps> = ({
   imageAlt
 }) => {
   return (
+    <>
     <S.MainContainer>
       <S.Content>
-        <S.Title>{title}</S.Title>
-        <S.Subtitle>{subtitle}</S.Subtitle>
+        {title && <S.Title dangerouslySetInnerHTML={{ __html: title }} />}
+       {subtitle && <S.SubTitle dangerouslySetInnerHTML={{ __html: subtitle }}  />}
+       
       </S.Content>
       <S.Image src={imageSrc} alt={imageAlt} />
     </S.MainContainer>
+    </>
   );
 };
 

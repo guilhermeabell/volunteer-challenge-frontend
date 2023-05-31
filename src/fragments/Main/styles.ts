@@ -10,7 +10,6 @@ export const MainContainer = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 0 14rem;
 `;
 
 export const Image = styled.img`
@@ -22,7 +21,7 @@ export const Title = styled.h1`
   font-size: 3rem;
 `;
 
-export const Subtitle = styled.h2`
+export const SubTitle = styled.h2`
   font-size: 1.5rem;
   font-weight: normal;
   color: #515151;

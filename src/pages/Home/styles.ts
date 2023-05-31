@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  max-width: 450px;
-  margin-left: 4rem;
+  margin-top: 3rem;
+  gap: 2rem;
+  padding: 0rem 4rem;
+  max-height: 20px;
+  max-width: 615px;
 `

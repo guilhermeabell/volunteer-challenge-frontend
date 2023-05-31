@@ -17,11 +17,11 @@ const Home: React.FC = () => {
     imageSrc={Ilustration}
     imageAlt="Home
     image"
-    subtitle="Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+" 
-    title="Boas vindas a Lacrei Saúde" 
+    subtitle="Uma plataforma segura e acolhedora para <br /> comunidade LGBTQIAPN+" 
+    title="Boas vindas a Lacrei <br /> Saúde" 
     />
     <S.ButtonsContainer>
-    <Button bgColor='#018762' color='#FFF'>
+     <Button bgColor='#018762' color='#FFF'>
       Pessoa Usuária
     </Button>
     <Button hasBorder bgColor='#FFF' color='#018762'>
