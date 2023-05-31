@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import * as S from './styles';
 
 const Header: React.FC = () => {
@@ -8,13 +8,13 @@ const Header: React.FC = () => {
       <S.Title>Lacrei</S.Title>
       <S.NavigationMenu>
         <S.NavigationMenuItem>
-           <a href="/">Home</a>
+           <Link to={"/"}>Home</Link>
         </S.NavigationMenuItem>
         <S.NavigationMenuItem>
-          Pessoa Usuária
+          <Link to={"/userperson"}>Pessoa Usuária</Link>
         </S.NavigationMenuItem>
         <S.NavigationMenuItem>
-          Profissional
+          <Link to={"/professional"}>Profissional</Link>
         </S.NavigationMenuItem>
       </S.NavigationMenu>
     </S.HeaderContainer>
