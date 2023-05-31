@@ -18,7 +18,9 @@
   "src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}": [
     "eslint --fix",
     "npm run test"
-  ]
+  ],
+  "src/**/*.{json,css,scss,md}": ["prettier --write"],
+  "*.{js,jsx,ts,tsx}": ["eslint --fix --quiet", "prettier --write"]
 },
   "dependencies": {
     "@types/jest": "29.5.2",

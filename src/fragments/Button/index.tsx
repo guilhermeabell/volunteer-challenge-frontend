@@ -8,18 +8,11 @@ interface ButtonProps {
   children: React.ReactNode
 }
 
-const Teste = () => {
-  return <div>Teste</div>
-}
-
 const Button: React.FC<ButtonProps> = ({ hasBorder = false, color, bgColor, children }) => {
   return (
-    <>
-      <S.ButtonWrapper hasBorder={hasBorder} color={color} bgColor={bgColor}>
-        {children}
-      </S.ButtonWrapper>
-      <Teste />
-    </>
+    <S.ButtonWrapper hasBorder={hasBorder} color={color} bgColor={bgColor}>
+      {children}
+    </S.ButtonWrapper>
   )
 }
 
