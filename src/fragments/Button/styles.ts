@@ -7,9 +7,14 @@ interface ButtonProps {
 }
 
 export const ButtonWrapper = styled.button<ButtonProps>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 20px;
   width: 192px;
+  padding: 0.75rem 2rem;
   height: 48px;
+  font-size: 1.125rem;
   font-weight: bold;
   border-radius: 8px;
   border: ${(props) => (props.hasBorder ? '3px solid' : 'none')};
