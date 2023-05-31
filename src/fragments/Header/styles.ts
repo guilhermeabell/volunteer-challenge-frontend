@@ -16,6 +16,7 @@ export const Title = styled.h1`
   line-height: 44px;
   color: #018762;
 `
+
 export const NavigationMenu = styled.ul`
   display: flex;
   color: #1f1f1f;
@@ -25,15 +26,16 @@ export const NavigationMenu = styled.ul`
   padding: 2rem;
 `
 
-export const NavigationMenuItem = styled.li`
+export const NavigationMenuItem = styled.li<{ selected: boolean }>`
   margin-left: 16px;
   cursor: pointer;
 
   &:first-child {
     margin-left: 0;
   }
+
   a {
-    color: inherit;
+    color: ${({ selected }) => (selected ? '#018762' : 'inherit')};
     text-decoration: none;
     transition: all 0.2s ease 0s;
   }
