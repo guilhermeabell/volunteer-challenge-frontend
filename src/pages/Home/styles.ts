@@ -8,4 +8,9 @@ export const ButtonsContainer = styled.div`
   padding: 0rem 4rem;
   max-height: 20px;
   max-width: 615px;
+
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+    padding: 0rem 4rem;
+  }
 `
