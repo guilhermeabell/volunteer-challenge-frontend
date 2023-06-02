@@ -1,5 +1,7 @@
 # Lacrei Challenge
 
+![Logo](https://www.portallacrei.com.br/assets/imagens/%C3%ADcones/logo.svg)
+
 Project developed using React + Typescript + styled-components + Vite + Vitest.
 
 ### Lint
@@ -7,7 +9,10 @@ Project developed using React + Typescript + styled-components + Vite + Vitest.
 [![eslint: airbnb](https://img.shields.io/badge/Eslint-Airbnb-red?logo=airbnb&style=flat)](https://github.com/airbnb/javascript)
 [![code style: prettier](https://img.shields.io/badge/Code%20Style-Prettier-red?logo=prettier&style=flat)](https://github.com/prettier/prettier)
 
-![Logo](https://www.portallacrei.com.br/assets/imagens/%C3%ADcones/logo.svg)
+### CI / CD
+
+[![Vercel Status](https://vercelbadge.vercel.app/api/guilhermeabell/volunteer-challenge-frontend)](https://vercel.com/guilhermeabell/volunteer-challenge-frontend)
+
 
 ### Tools
 - Vite 
