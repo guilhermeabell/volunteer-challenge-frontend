@@ -15,13 +15,18 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-  "src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}": [
-    "eslint --fix",
-    "npm run test"
-  ],
-  "src/**/*.{json,css,scss,md}": ["prettier --write"],
-  "*.{js,jsx,ts,tsx}": ["eslint --fix --quiet", "prettier --write"]
-},
+    "src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}": [
+      "eslint --fix",
+      "npm run test"
+    ],
+    "src/**/*.{json,css,scss,md}": [
+      "prettier --write"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix --quiet",
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "@types/jest": "29.5.2",
     "jsdom": "22.1.0",
@@ -36,6 +41,7 @@
     "@commitlint/config-conventional": "17.6.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
+    "@types/node": "20.2.5",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@types/styled-components": "5.1.26",
