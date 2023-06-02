@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 
 import { Link } from 'react-router-dom'
-import Ilustration from '../../assets/home.svg'
-import Header from '../../fragments/Header'
-import Main from '../../fragments/Main'
-import Footer from '../../fragments/Footer'
-import Button from '../../fragments/Button'
+import Header from '@fragments/Header'
+import Ilustration from '@assets/home.svg'
+import Main from '@fragments/Main'
+import Footer from '@fragments/Footer'
+import Button from '@fragments/Button'
 
 import * as S from './styles'
 

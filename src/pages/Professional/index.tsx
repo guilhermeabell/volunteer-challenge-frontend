@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 
-import Ilustration from '../../assets/professional.svg'
-import Header from '../../fragments/Header'
-import Main from '../../fragments/Main'
-import Footer from '../../fragments/Footer'
+import Ilustration from '@assets/professional.svg'
+import Header from '@fragments/Header'
+import Main from '@fragments/Main'
+import Footer from '@fragments/Footer'
 
 const Professional: React.FC = () => {
   useEffect(() => {
