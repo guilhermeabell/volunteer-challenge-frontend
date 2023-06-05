@@ -1,4 +1,3 @@
-import React from 'react'
 import * as S from './styles'
 
 interface MainProps {
@@ -9,7 +8,7 @@ interface MainProps {
   hasBorderLeft?: boolean
 }
 
-const Main: React.FC<MainProps> = ({ title, subtitle, imageSrc, imageAlt, hasBorderLeft = false }) => {
+function Main({ title, subtitle, imageSrc, imageAlt, hasBorderLeft = false }: MainProps) {
   return (
     <S.MainContainer>
       <S.Content>

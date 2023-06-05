@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 
 import Ilustration from '@assets/userPerson.svg'
 import Header from '@fragments/Header'
 import Main from '@fragments/Main'
 import Footer from '@fragments/Footer'
 
-const UserPerson: React.FC = () => {
+function UserPerson() {
   useEffect(() => {
     document.title = 'Pessoa Usuária | Desafio Lacrei'
   }, [])

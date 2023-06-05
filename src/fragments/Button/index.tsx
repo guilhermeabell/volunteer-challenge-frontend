@@ -8,7 +8,7 @@ interface ButtonProps {
   children: React.ReactNode
 }
 
-const Button: React.FC<ButtonProps> = ({ hasBorder = false, color, bgColor, children }) => {
+function Button({ hasBorder = false, color, bgColor, children }: ButtonProps) {
   return (
     <S.ButtonWrapper hasBorder={hasBorder} color={color} bgColor={bgColor}>
       {children}

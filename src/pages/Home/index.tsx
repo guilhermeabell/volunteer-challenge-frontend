@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 
 import { Link } from 'react-router-dom'
 import Header from '@fragments/Header'
@@ -9,7 +9,7 @@ import Button from '@fragments/Button'
 
 import * as S from './styles'
 
-const Home: React.FC = () => {
+function Home() {
   useEffect(() => {
     document.title = 'Home | Desafio Lacrei'
   }, [])

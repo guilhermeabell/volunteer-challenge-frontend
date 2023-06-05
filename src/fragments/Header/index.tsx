@@ -1,12 +1,7 @@
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import * as S from './styles'
 
-interface HeaderProps {
-  selected?: boolean
-}
-
-const Header: React.FC<HeaderProps> = () => {
+function Header(): JSX.Element {
   const location = useLocation()
 
   const isSelected = (path: string) => {

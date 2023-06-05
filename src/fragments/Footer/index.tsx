@@ -1,13 +1,8 @@
-import React from 'react'
 import { FacebookLogo, LinkedinLogo, InstagramLogo } from 'phosphor-react'
 import { Link, useLocation } from 'react-router-dom'
 import * as S from './styles'
 
-interface FooterProps {
-  selected?: boolean
-}
-
-const Footer: React.FC<FooterProps> = () => {
+function Footer(): JSX.Element {
   const location = useLocation()
 
   const isSelected = (path: string) => {

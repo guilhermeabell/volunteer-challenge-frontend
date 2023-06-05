@@ -84,7 +84,6 @@
             "selector": "variable"
           }
         ],
-        "react/function-component-definition": "off"
       }
     }
   ]
