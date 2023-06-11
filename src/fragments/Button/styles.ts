@@ -17,8 +17,8 @@ export const ButtonWrapper = styled.button<ButtonProps>`
   font-weight: bold;
   border-radius: 8px;
   border: ${(props) => (props.hasBorder ? '3px solid' : 'none')};
-  color: ${(props) => props.color || '#000'};
-  background-color: ${(props) => props.bgColor || 'white'};
+  color: ${(props) => props.color || 'var(--dark--color)'};
+  background-color: ${(props) => props.bgColor || 'var(--light--color)'};
   cursor: pointer;
 
   @media screen and (min-width: 768px) {

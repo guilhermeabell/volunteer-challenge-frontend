@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   padding: 0 1.25rem;
   height: 3.75rem;
-  background-color: #eeeeee;
+  background-color: var(--gray--color);
 `
 
 export const Title = styled.h1`
@@ -14,12 +14,12 @@ export const Title = styled.h1`
   padding: 2rem;
   font-weight: bold;
   line-height: 44px;
-  color: #018762;
+  color: var(--green--color);
 `
 
 export const NavigationMenu = styled.ul`
   display: flex;
-  color: #1f1f1f;
+  color: var(--dark--medium-color);
   list-style: none;
   font-weight: bold;
   gap: 2rem;
@@ -35,12 +35,12 @@ export const NavigationMenuItem = styled.li<{ selected: boolean }>`
   }
 
   a {
-    color: ${({ selected }) => (selected ? '#018762' : 'inherit')};
+    color: ${({ selected }) => (selected ? 'var(--green--color)' : 'inherit')};
     text-decoration: none;
     transition: all 0.2s ease 0s;
   }
 
   &:hover {
-    color: #808080;
+    color: var(--gray--medium--color);
   }
 `

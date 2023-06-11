@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const FooterContainer = styled.footer`
   display: flex;
-  border-top: 1px solid #b0e0d3;
+  border-top: 1px solid var(--green--light--color);
   flex-direction: column;
   margin: 4rem;
   gap: 1rem;
@@ -16,38 +16,38 @@ export const MenuContainer = styled.div`
 `
 
 export const MenuItem = styled.a<{ selected: boolean }>`
-  color: #333;
+  color: var(--dark--gray--color);
   text-decoration: none;
   font-size: 1.2rem;
 
   a {
-    color: ${({ selected }) => (selected ? '#1F1F1F' : 'inherit')};
+    color: ${({ selected }) => (selected ? 'var(--dark--medium--color)' : 'inherit')};
     font-weight: ${({ selected }) => (selected ? '700' : 'normal')};
     text-decoration: none;
     transition: all 0.2s ease 0s;
   }
 
   &:hover {
-    color: #808080;
+    color: var(--gray--medium--color);
   }
 `
 
 export const IconContainer = styled.div`
   display: flex;
-  color: #018762;
+  color: var(--green--color);
   gap: 2rem;
 
   a {
-    color: #018762;
+    color: var(--green--color);
   }
 
   &:hover {
-    color: #018762;
+    color: var(--green--color);
     transition: all 0.2s ease 0s;
   }
 `
 
 export const SubTitle = styled.p`
-  color: #515151;
+  color: var(--gray--light--color);
   font-size: 0.75rem;
 `

@@ -62,11 +62,11 @@ export const Title = styled.h1`
 `
 
 export const SubTitle = styled.h2<MainProps>`
-  border-left: ${(props) => (props.hasBorderLeft ? '4px solid #018762' : 'none')};
+  border-left: ${(props) => (props.hasBorderLeft ? '4px solid var(--green--color)' : 'none')};
   padding-left: 1rem;
   font-size: 1.2rem;
   font-weight: normal;
-  color: #515151;
+  color: var(--gray--light--color);
   margin-bottom: 2rem;
 
   @media screen and (min-width: 414px) {
